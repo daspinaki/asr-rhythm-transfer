@@ -42,13 +42,21 @@ The audio demo for AutoPST can be found [here](https://auspicious3000.github.io/
 
 ## To Run Demo
 
-Download [pre-trained models](https://drive.google.com/file/d/1ji3Bk6YGvXkPqFu1hLOAJp_SKw-vHGrp/view?usp=sharing) to ```assets```
 
-Download the same WaveNet vocoder model as in [AutoVC](https://github.com/auspicious3000/autovc) to ```assets```
+### All dependencies are downloaded in [demo](./demo.ipynb)
+
+Download [580000-P.ckpt](https://www.kaggle.com/datasets/daspinaki/rhythm-transfer?resource=download) for predictor to ```assets```
+
+Download [sea.ckpt](https://www.kaggle.com/datasets/daspinaki/rhythm-transfer?resource=download) for sea to ```assets```
+
+Download [checkpoint_step001000000_ema.pth](https://www.kaggle.com/datasets/daspinaki/rhythm-transfer?resource=download) for model to ```assets```
+
+
+Download the same WaveNet vocoder model as in [AutoVC](https://github.com/auspicious3000/autovc) to ```assets``` using ```pip install wavenet_vocoder==0.1.1```
 
 The fast and high-quality hifi-gan v1 (https://github.com/jik876/hifi-gan) pre-trained model is now available [here.](https://drive.google.com/file/d/1n76jHs8k1sDQ3Eh5ajXwdxuY_EZw4N9N/view?usp=sharing)
 
-Please refer to [AutoVC](https://github.com/auspicious3000/autovc) if you have any problems with the vocoder part, because they share the same vocoder scripts.
+<!-- Please refer to [AutoVC](https://github.com/auspicious3000/autovc) if you have any problems with the vocoder part, because they share the same vocoder scripts. -->
 
 Run ```demo.ipynb``` 
 
