@@ -58,7 +58,7 @@ The fast and high-quality hifi-gan v1 (https://github.com/jik876/hifi-gan) pre-t
 
 <!-- Please refer to [AutoVC](https://github.com/auspicious3000/autovc) if you have any problems with the vocoder part, because they share the same vocoder scripts. -->
 
-Input files for the demo should be placed in assets/inputs/wav, and output files will be generated in assets/output.
+Input files for the demo should be placed in ```assets/inputs/wave```, and ```assets/output``` files will be generated in assets/output.
 
 Run ```demo.ipynb``` 
 
