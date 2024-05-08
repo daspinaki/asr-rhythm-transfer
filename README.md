@@ -58,22 +58,14 @@ The fast and high-quality hifi-gan v1 (https://github.com/jik876/hifi-gan) pre-t
 
 <!-- Please refer to [AutoVC](https://github.com/auspicious3000/autovc) if you have any problems with the vocoder part, because they share the same vocoder scripts. -->
 
+Added systhesis.py and hparams.py to make the code workable.
+
 Input files for the demo should be placed in ```assets/inputs/wave```, and ```assets/outputs``` files will be generated in assets/output.
 
 Run ```demo.ipynb``` 
 
 
-## To Train
 
-Download [training data](https://drive.google.com/file/d/1H1dyA80qREKLHybqnYaqBRRsacIdFbnE/view?usp=sharing) to ```assets```.
-The provided training data is very small for code verification purpose only.
-Please use the scripts to prepare your own data for training.
-
-1. Prepare training data: ```python prepare_train_data.py```
-
-2. Train 1st Stage: ```python main_1.py```
-
-3. Train 2nd Stage: ```python main_2.py```
 
 
 ## Final Words
